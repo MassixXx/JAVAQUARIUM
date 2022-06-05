@@ -1,0 +1,38 @@
+help
+help (1) / help cmd (2)
+(1) : affiche une aide du programme actuel.
+(2) : Cette commande permet d'afficher plus de détails sur une commande cmd particulière.
+Ex: help new : affiche l'aide de la commande new
+#
+new
+new nbA nbP (1) / new (2)
+Cette commande permet de créer un nouvel aquarium:
+(1): crée un aquarium avec nbA algues et nbP poissons (les noms et les races sont générés aléatoirements).
+nb : nbA et nbP doivent être des entiers positifs.
+(2): crée un aquarium avec un nombre aléatoire d'algues et de poissons avec des noms et races aléatoires.
+#
+loadff
+loadff filename
+Cette commande permet de créer un aquarium à partir du fichier portant le nom filename.
+nb : le contenu du fichier filename doit respécter le format : [Nombre d'algues] algues [âge] ans (= tours) pour les algues et le format : [nom], [race], [âge] ans (= tours) pour les poissons.
+#
+save
+save proj
+Cette commande permet de sauvegarder l'êtat actuel de votre aquarium dans un projet nommé proj.
+Pour recharger votre projet tapez "loado proj".
+Tapez help loado pour plus d'information sur la commande loado
+#
+loado
+loado proj
+Cette commande permet de charger un projet déjà enregistré grâce à la commande save.
+Tapez "help save" pour plus d'information sur la commande save.
+#
+next
+next
+Cette commande simule un tour.
+Tapez help simule pour plus d'infos sur la commande simule.
+#
+show
+show
+affiche l'êtat actuel de l'aquarium.
+#
